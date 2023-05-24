@@ -46,9 +46,16 @@
 
 .cv-btn {
     background-color: rgb(106, 200, 255);
-    padding: 15px 20px 15px 20px;
+    padding: 15px 20px 10px 20px;
     border-style: hidden;
     font-size: 15px;
+}
+.cv-btn:hover {
+    background-color: white;
+}
+
+.fa-user {
+padding: 5px;
 }
 
 .about-list {
@@ -67,19 +74,15 @@
     font-weight: normal;
 }
 
-/* .bar-label {
-    margin: 16px 0 8px 0;
-    font-size: 14px;
-} */
-
-.skill-icon {
+.fa-brands {
     font-size: 50px;
+    color: white;
+    padding-right: 10px;
 }
 
 .fa-brands:hover {
     cursor: pointer;
     color: rgb(106, 200, 255);
-    
 }
 
 
@@ -139,23 +142,4 @@ h1{
 #about, #projects, #education, #experience {
     padding-bottom: 4rem;
     padding-top: 4rem;
-}
-
-/* footer styling */
-#footer {
-    background-color: rgb(39, 39, 39);
-    text-align: center;
-}
-.social-icons {
-    font-size: 36px;
-    cursor: pointer;
-}
-
-.fa-facebook,.fa-instagram,.fa-twitter,.fa-linkedin {
-    color: #ffffff;
-    padding: 10px;
-}
-
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
-    color: rgb(106, 200, 255);
 }
