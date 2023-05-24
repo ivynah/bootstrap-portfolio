@@ -67,10 +67,22 @@
     font-weight: normal;
 }
 
-.bar-label {
+/* .bar-label {
     margin: 16px 0 8px 0;
     font-size: 14px;
+} */
+
+.skill-icon {
+    font-size: 50px;
 }
+
+.fa-brands:hover {
+    cursor: pointer;
+    color: rgb(106, 200, 255);
+    
+}
+
+
 
 /* styling for projects section */
 .projects-section {
