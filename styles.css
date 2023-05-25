@@ -2,7 +2,6 @@
     background-color: #000;
 }
 
-
 .bgimage {
     background-color: rgb(0, 0, 0);
     height: 100vh;
@@ -93,6 +92,10 @@ padding: 5px;
     color: rgb(255, 255, 255);
 }
 
+.card {
+    height: 100%;
+}
+
 .card-title,
 .card-desc {
     color: black;
@@ -100,6 +103,10 @@ padding: 5px;
 
 .card-img-top {
     height: 250px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.957);
 }
 
 /* styling for experience section */
